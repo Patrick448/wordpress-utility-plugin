@@ -7,7 +7,7 @@
 
  //[foobar]
 function foobar_func( $atts ){
-	return "Alucicrazy";
+	return get_current_user_id();
 }
 add_shortcode( 'test', 'foobar_func' );
 
