@@ -17,4 +17,13 @@ function utility_admin_menu_option(){
 
 add_action('admin_menu', 'utility_admin_menu_option');
 
+function utility_plugin_page(){
+
+    ?>
+    <h1>Utility Plugin</h1>
+
+    <?php
+
+}
+
 ?>
